@@ -98,7 +98,7 @@ const USERS_INITIAL_DATA: DataPoint[] = [
 ];
 
 // Initial newsletter data (cumulative ACTIVE subscribers from Supabase - only 'subscribed' status)
-// Updated: 2026-02-13 (962 total)
+// Updated: 2026-02-16 (1008 total)
 const NEWSLETTER_INITIAL_DATA: DataPoint[] = [
   { date: "2025-12-05", value: 8 },
   { date: "2025-12-06", value: 15 },
@@ -171,6 +171,9 @@ const NEWSLETTER_INITIAL_DATA: DataPoint[] = [
   { date: "2026-02-11", value: 943 },
   { date: "2026-02-12", value: 955 },
   { date: "2026-02-13", value: 962 },
+  { date: "2026-02-14", value: 972 },
+  { date: "2026-02-15", value: 983 },
+  { date: "2026-02-16", value: 1008 },
 ];
 
 // Default metrics
