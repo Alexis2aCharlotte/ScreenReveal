@@ -427,10 +427,10 @@ export default function GraphsPage() {
       <main className="relative min-h-screen flex">
         {/* Chart Preview Area */}
         <div className="flex-1 flex flex-col items-center justify-center p-8">
-          {/* Export Wrapper with Background */}
+          {/* Export Wrapper with Background - square corners for clean Twitter upload (no white edges) */}
           <div
             ref={chartRef}
-            className="rounded-3xl overflow-hidden"
+            className="overflow-hidden"
             style={{ 
               background: selectedBackground.value,
               padding: selectedBackground.id === "none" ? "0" : "24px"
