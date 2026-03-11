@@ -48,10 +48,9 @@ PostX est un outil personnel conçu pour créer rapidement des visuels professio
 | Followers | 🐦 | `#f59e0b` | - |
 
 #### Données Newsletter
-- Données pré-chargées depuis Supabase (SQL dump)
-- Calcul cumulatif des subscribers actifs
-- Prise en compte des `subscribed` et `unsubscribed`
-- **1008 subscribers** au 16 février 2026
+- Données pré-chargées depuis Supabase (SQL dump `newsletter_subscribers_rows`)
+- Calcul cumulatif des subscribers actifs (status `subscribed` uniquement)
+- **1255 subscribers** au 11 mars 2026 (+247 depuis le 16 février)
 
 #### Données Users (Paying Customers)
 - Données pré-chargées depuis Supabase (table customers)
@@ -321,4 +320,4 @@ npm run lint
 
 ---
 
-*Dernière mise à jour : 16 février 2026*
+*Dernière mise à jour : 11 mars 2026*
